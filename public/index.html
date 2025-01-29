@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: auto;
+        box-sizing: border-box;
+      }
+      :root {
+        --cereja: #0d9b9b;
+      }
+      header.topo {
+        background-color: var(--cereja);
+        height: 150px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        h1.tittle {
+          font-size: 50px;
+          font-weight: bold;
+        }
+      }
+      hr.line {
+        border: solid 2px black;
+      }
+      div.corpo {
+        div.img-edit {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    </style>
+
+    <header class="topo">
+     <h1 class="tittle">TÍTULO DE TESTE</h1>
+    </header>
+    <hr class="line" />
+    <div class="corpo">
+      <div class="img-edit">
+        <img src="../img/fuji.jpg" alt="fuji" class="fuji" />
+        <img src="../img/tokyo.jpg" alt="tokyo" class="tokyo" />
+      </div>
+    </div>
+
+    <footer class="rodape"></footer>
+  </body>
+</html>

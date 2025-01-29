@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows logo</title>
+  </head>
+  <body class="flex">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+      .flex {
+        width: 100vw;
+        height: 100vh;
+        background-color: khaki;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .grid {
+        display: grid;
+        background-color: brown;
+        width: 400px;
+        height: 400px;
+        color: white;
+        grid-template: auto auto / auto auto;
+        border: outset 4px black;
+        box-shadow: 5px 5px 5px 5px black;
+    }
+
+      .grid-edit1 {
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 3px black;
+      }
+
+      .grid-edit2 {
+        border: solid 3px black;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .grid-edit3 {
+        border: solid 3px black;
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .grid-edit4 {
+        border: solid 3px black;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+
+    <div class="grid">
+      <div class="grid-edit1"></div>
+      <div class="grid-edit2"></div>
+      <div class="grid-edit3"></div>
+      <div class="grid-edit4"></div>
+    </div>
+  </body>
+</html>
